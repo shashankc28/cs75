@@ -1,0 +1,36 @@
+body , html{
+  font : 1em "Lato" , sans-serif;
+}
+input{
+  font:inherit;
+}
+
+
+.tt-menu{
+  width: 300%;
+  background-color:#fff;
+  border: 1px solid #bbb;
+  border-top: 0;
+  padding: 0;
+}
+.tt-input:focus{
+  outline:none;
+}
+
+.tt-suggestion{
+  padding: 5px 10px;
+  margin:0;
+  cursor:pointer;
+}
+
+.tt-suggestion p{
+  margin:5px 0;
+}
+
+.tt-suggestion.tt-cursor,.tt-suggestion:hover {
+
+  background-color:#ddd;
+}
+.tt-hint{
+  color:#bbb;
+}
